@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-color: #FFDBBB;
+    border-radius: 50px;
+}
+
+.container {
+    background-color: white;
+    height: 400px;
+    width: 280px;
+    border-radius: 40px;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgb(213, 0, 206);
+    padding: 20px;
+}
+
+.container img {
+    border-radius: 100%;
+}
+
+p {
+    text-transform: uppercase;
+}
+
+button {
+    background-color: #FFDBBB;
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgb(213, 0, 206);
+}
+
+button:hover {
+    background-color: pink;
+    color: red;
+    padding: 20px;
+}
